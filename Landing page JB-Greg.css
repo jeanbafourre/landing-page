@@ -1,0 +1,145 @@
+.grid {
+  border: 2px black solid;
+  display: grid;
+  grid-template-column: 25% 25% 25% 25%;
+  grid-template-rows: 25% 25% 20% 20% 10%;
+  grid-gap: 5px;
+    width: 100%;
+}
+
+#drapeau {
+  background-image: url("http://www.litury.com/wp-content/uploads/2017/12/image-hd-fond-d-ecran-drapeau-francais.jpg");
+  grid-row: 3 / 6;
+  grid-column: 1 / 5;
+  background-size: 100%;
+}
+  
+.titre {
+  z-index: 1;
+  border: 3px #9C661F solid;
+  grid-row: 1 / 2;
+  grid-column: 1 / 5;
+  padding: 20px;
+  background-image: url("https://www.phyramid.com/images/blog/making-phyramid-coms-procedurally-rendered-3d-header/header-background-indexed.png");
+}
+
+
+.image {
+  z-index: 2;
+  border: 3px #9C661F solid;
+  grid-row: 1 / 2;
+  grid-column: 4 / 5; 
+}
+
+.bienvenus {
+  height: 20px;
+  width: 80px;
+}
+
+#icon {
+  width: 120px;
+}
+
+#oologue {
+  background-image: url("https://thumbs.dreamstime.com/b/eggshell-wallpaper-texture-broken-eggshell-eggshell-many-broken-eggshell-wallpaper-texture-broken-eggshell-109606776.jpg");
+  background-size: cover;
+  grid-row: 2 ;
+  grid-column: 1 / 5;
+  z-index: 1;
+}
+
+.intro {
+  border: 3px #9C661F solid;
+  background-color: tan;
+  grid-row: 2 / 3;
+  grid-column: 2 / 4;
+  z-index: 2;
+}
+
+.Musique {
+  border: 3px #9C661F solid;
+  grid-row: 3 / 4;
+  grid-column: 1 / 2;
+    background-image: url("https://i.ebayimg.com/images/g/4ZEAAOSwjDZYgO-E/s-l300.jpg");
+  background-size: 100%;
+}
+
+.Films {
+  border: 3px #9C661F solid;
+  grid-row: 3 / 4;
+  grid-column: 2 / 3;
+  background-image: url("http://cdn.www.ikub.al/upload/6a/6a7ccc29-3ce7-4b3a-9d34-e7afdd87cfc0---0.jpg");
+  background-size: cover;
+}
+
+.Regimealimentaire {
+  border: 3px #9C661F solid;
+  grid-row: 3 / 4;
+  grid-column: 3 / 4;
+  background-image: url("https://www.shapefit.com/wp-content/uploads/2015/04/nutrition-tips-stay-healthy-on-vegan-diet-21.jpg");
+  background-size: cover;
+}
+
+.Sport {
+  border: 3px #9C661F solid;
+  grid-row: 3 / 4;
+  grid-column: 4 / 5;
+  background-image: url("https://www.myrelations.eu/photo/art/grande/6454189-9733037.jpg?v=1395569019");
+  background-size: cover;
+}
+
+.Stylevestimentaire {
+  border: 3px #9C661F solid;
+  grid-row: 4 / 5;
+  grid-column: 1 / 2;
+  background-image: url("https://www.meme-arsenal.com/memes/6420eba7421ec5b5fc5d1104bfb083f9.jpg");
+  background-size: cover;
+}
+
+.Litterature {
+  border: 3px #9C661F solid;
+  grid-row: 4 / 5;
+  grid-column: 2 / 3;
+  background-image: url("https://images-na.ssl-images-amazon.com/images/I/61OEpIky54L._SX339_BO1,204,203,200_.jpg");
+  background-size: cover;
+}
+
+.Voyages {
+  border: 3px #9C661F solid;
+  grid-row: 4 / 5;
+  grid-column: 3 / 4;
+  background-image: url("http://farm8.staticflickr.com/7079/7260974184_9e59ba6210.jpg");
+  background-size: cover;
+}
+
+.Passion {
+  border: 3px #9C661F solid;
+  grid-row: 4 / 5;
+  grid-column: 4 / 5;
+  background-image: url("http://www.art-et-artisanat-du-monde.com/photos/Oeufs_naturels/Oeufs_ratites.jpg");
+  background-size: cover;
+}
+
+.Contacts {
+  border: 3px #9C661F solid;
+  grid-row: 5 / 6;
+  grid-column: 1 / 6;
+  background-color: tan;
+  text-align: center;
+}
+
+h1 {
+  font-family: Indie Flower;
+  text-align: center;
+}
+
+.loisirs {
+  font-family: Indie Flower;
+  background-color: #FCE6C9;
+  text-align: center;
+
+}
+
+p {
+  overflow: scroll;
+}
